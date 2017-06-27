@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\restapidoc\restapidoc\controllers;
+namespace yii2module\restapidoc\restapidoc\controllers;
 
 use Yii;
 use yii\web\Controller;
