@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\restapidoc\restapidoc;
+namespace yii2module\restapidoc;
 
 use yii\base\Module as YiiModule;
 
