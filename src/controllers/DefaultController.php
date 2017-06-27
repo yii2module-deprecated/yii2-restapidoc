@@ -26,7 +26,7 @@ class DefaultController extends Controller
 	public function actionView()
 	{
 		$this->layout = 'main';
-		return $this->render('@app/modules/doc/views/generated/' . API_VERSION_STRING);
+		return $this->render('@frontend/web/doc/restapi/' . API_VERSION_STRING . '/index.html');
 	}
 
 }
