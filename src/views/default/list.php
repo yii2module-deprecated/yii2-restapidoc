@@ -3,7 +3,7 @@
 /* @var $this \yii\web\View */
 /* @var $versionList array */
 
-$this->title = Yii::t('this/main', 'title');
+$this->title = Yii::t('restapidoc/main', 'title');
 
 ?>
 
@@ -11,7 +11,7 @@ $this->title = Yii::t('this/main', 'title');
 	<div class="row">
 		<div class="col-md-9" role="main">
 			<div class="page-header">
-				<h1><?= Yii::t('this/main', 'version_list') ?></h1>
+				<h1><?= Yii::t('restapidoc/main', 'version_list') ?></h1>
 			</div>
 			<ul class="list-group">
 				<?php foreach ($versionList as $version) { ?>
